@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>RUN RUN RUN</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<header>
+    <nav>
+<ul>
+  <li><a href="./AboutMe.html">About Me</a></li>
+   <li><a href="./MapRuns.html">Map Runs</a></li>
+   <li><a href="./PlanRuns.html">Plan Runs</a></li>
+   <li><a href="./SetGoals.html">Set Goals</a></li>
+  <li><a href="./MainPage.html">Home</a></li>
+<img src="img/logo.png">
+</ul>
+</nav>
+    </div>
+</header>
+<div class="boxed12">
+<div class="PlanRuns"> MAP RUNS </div>
+<h2>Mapping runs helps you make sure that you run the distance you want to in the end!</h2>
+<div class="boxed14">
+</div>
+</div>
+
+<script>
+  function initMap() {
+  }
+
+  var uluru = {lat: -25.344, lng: 131.036};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+
+  var marker = new google.maps.Marker({
+  position: uluru,
+  map: map
+}); 
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtLp1BXkVeiY22qgc2jTJouSamxwj8XUk&callback=initMap">
+</script>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body{
+
+	text-align:center;
+	font-family:Didot, serif;
+	background-color:white;
+background-image: url("./img/runshoe.png");
+background-size: cover;
+
+
+h1{
+font-size: 150px;
+}
+
+h2{
+margin-bottom:4px;
+}
+}
+
+header{
+background-color: #ccecff;
+font-family:Gill Sans, sans-serif;
+margin-bottom: 0px;
+}
+
+
+div.b {
+  line-height: 1.6;
+}
+
+img{
+float:left;
+padding:15px;
+margin-left:50px;
+}
+
+.container{
+width:80%;
+margin: 0 auto;
+}
+
+
+
+header::after{
+content:'';
+display:table;
+clear:both;
+}
+
+nav ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+nav li{
+float:right;
+display: inline-block;
+margin-right:80px;
+padding-top:42px;
+position:relative;
+}
+
+nav a{
+color: #7934b3;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#e075cb;
+}
+
+nav a::before{
+content:'';
+display:block;
+height: 3px;
+width: 100%;
+background-color: #e075cb;
+
+position: absolute;
+top: 0;
+width: 0%;
+}
+
+nav a:hover::before{
+width:100%;
+}
+
+.title{
+font-family:Optima, sans-serif;
+font-size:8.3em;
+font-weight:800;
+margin-bottom: 0px;
+margin-top:4px;
+color:transparent;
+background-image:url(https://media.giphy.com/media/fUvfA0iLgy8qCGuvF2/giphy.gif);
+background-position:center;
+-webkit-background-clip:text;
+}
+
+.boxed{
+background-color:#aa6dde;
+border:0;
+padding-top:130px;
+padding-bottom:135px;
+margin-top:10px;
+margin-bottom:10px;
+opacity: 0.775;
+}

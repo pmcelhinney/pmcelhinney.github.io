@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>RUN RUN RUN</title>
+  <script type="text/javascript">
+    function moveimage(position)
+    {
+      var pos= position+100;
+      document.getElementById("img1").style.left=pos+"px";
+    }
+
+  </script>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<header>
+    <nav>
+<ul>
+  <li><a href="./AboutMe.html">About Me</a></li>
+   <li><a href="./MapRuns.html">Map Runs</a></li>
+   <li><a href="./PlanRuns.html">Plan Runs</a></li>
+   <li><a href="./SetGoals.html">Set Goals</a></li>
+  <li><a href="./MainPage.html">Home</a></li>
+<img src="img/logo.png">
+</ul>
+</nav>
+    </div>
+</header>
+<div class="boxed11">
+<div class="SetGoals"> SET GOALS </div>
+<h2>Setting goals and reaching is a very important part of running. Write in your top six goals here, and <br>each time you reach a one, the runner icon will move forward to your next goal.</h2>
+<div id="img1" style="position:absolute;left:-20px"><img src="img/run.gif" height="100" width="100/"></div>
+<input type="button" class="buttonclass button1" value="1ST GOAL REACHED!" onclick="moveimage(80)"/>
+<input type="button" class="buttonclass button2" value="2ND GOAL REACHED!" onclick="moveimage(280)"/>
+<input type="button" class="buttonclass button3" value="3RD GOAL REACHED!" onclick="moveimage(480)"/>
+<input type="button" class="buttonclass button4" value="4TH GOAL REACHED!" onclick="moveimage(680)"/>
+<input type="button" class="buttonclass button5" value="5TH GOAL REACHED!" onclick="moveimage(880)"/>
+<input type="button" class="buttonclass button6" id= "finalbutton" value="6TH GOAL REACHED!" onclick="moveimage(1090);"/>
+ <img src="img/confetti.gif" class="hidden" id="confetti">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $.fn.center = function () {
+        this.css("position","absolute");
+        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px");
+        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+        return this;
+      }
+
+      $("#finalbutton").on("click", function(){
+        $("#confetti").fadeIn().center();
+        setTimeout(function(){
+          $("#confetti").fadeOut()
+        }, 1000);
+      });
+    </script>
+<textarea class="textclass boxed2">First Goal:</textarea>
+<textarea class="textclass boxed3">Second Goal:</textarea>
+<textarea class="textclass boxed6">Third Goal:</textarea>
+<textarea class="textclass boxed7">Fourth Goal:</textarea>
+<textarea class="textclass boxed8">Fifth Goal:</textarea>
+<textarea class="textclass boxed9">Sixth Goal:</textarea>
+
+<div class="boxed10" id="finalbox"><br>GOALS REACHED!
+  <div id="finishLine"><img src="img/finishLine.jpg" height="30" width="35/" class="center"/></div>
+</div> 
+</div>
+</div>
+</body>
+</html>
