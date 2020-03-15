@@ -37,13 +37,12 @@
 <input type="button" class="buttonclass button4" value="4TH GOAL REACHED!" onclick="moveimage(680)"/>
 <input type="button" class="buttonclass button5" value="5TH GOAL REACHED!" onclick="moveimage(880)"/>
 <input type="button" class="buttonclass button6" id= "finalbutton" value="6TH GOAL REACHED!" onclick="moveimage(1090);"/>
- <img src="img/confetti.gif" class="hidden" id="confetti">
+ <img src="img/confetti.gif" style="display: none " class="hidden" id="confetti">
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
       $.fn.center = function () {
         this.css("position","absolute");
-        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px");
-        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+        this.css("left","1150");
         return this;
       }
 
