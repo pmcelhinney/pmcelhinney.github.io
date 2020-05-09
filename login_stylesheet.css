@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+text-align:center;
+  color:#777;
+  font-family:sans-serif;
+  background-color:white;
+background-image: url("./img/runshoe.png");
+background-size: cover;
+}
+
+.box{
+  background-color:rgba(170, 109, 222, 0.775);
+margin-top:10px;
+margin-bottom:10px;
+padding-bottom: 26px;
+padding-top:10px;
+margin-left:10px;
+margin-right:10px;
+top:50%;
+left:50%;
+}
+
+.box1{
+  background-color:rgba(170, 109, 222, 0.775);
+margin-top:10px;
+margin-bottom:10px;
+padding-bottom: 100px;
+padding-top:10px;
+margin-left:10px;
+margin-right:10px;
+top:50%;
+left:50%;
+}
+
+.RunTitle{
+  font-family:Optima, sans-serif;
+font-size:2em;
+font-weight:800;
+margin-bottom: 0px;
+margin-top:4px;
+color:transparent;
+background-image:url(https://media.giphy.com/media/fUvfA0iLgy8qCGuvF2/giphy.gif);
+background-position:center;
+-webkit-background-clip:text;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #aa6dde;
+  text-align: center;
+  border: 1px solid #e075cb;
+  border-bottom: none;
+  padding: 20px;
+  text-shadow:0 2px 4px rgba(0,0,0,0.6);
+    transition:0.2s ease;
+font-family:sans-serif;
+font-size:1em;
+font-weight:100;
+text-transform:uppercase;
+
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #e075cb;
+  background: white;
+    transition:0.2s ease;
+font-family: sans-serif;
+    font-weight:100;
+font-size:15px;
+  color:#959696;
+    text-shadow:0 2px 4px rgba(0,0,0,0.06);
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #aa6dde;
+  border: none;
+    text-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+
+.btn:hover{
+  background-color:#e075cb;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+

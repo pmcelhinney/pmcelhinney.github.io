@@ -2,8 +2,9 @@ body{
 
 	text-align:center;
 	font-family:Didot, serif;
-background-image: url("./runshoe.jpg.png");
 background-size: cover;
+background-color:white;
+background-image: url("./img/runshoe.png");
 
 
 h1{
@@ -28,8 +29,8 @@ div.b {
 
 img{
 float:left;
-padding:15px;
-margin-left:50px;
+padding:1.2%;
+margin-left:2%;
 }
 
 .container{
@@ -247,32 +248,29 @@ font-weight:920;
 }
 
 .boxed11{
-background-color:#aa6dde;
+background-color:rgba(170, 109, 222, 0.775);
 margin-top:10px;
 margin-bottom:10px;
 padding-bottom:10px;
 top:50%;
 left:50%;
-opacity:0.775;
 }
 
 .boxed12{
-  background-color:#aa6dde;
+background-color:rgba(170, 109, 222, 0.775);
 margin-top:10px;
 margin-bottom:10px;
 top:50%;
 left:50%;
-opacity:0.775;
 padding-bottom: 10px;
 }
 
 .boxed13{
-background-color:#aa6dde;
+background-color:rgba(170, 109, 222, 0.775);
 padding-bottom:20px;
 margin-top:10px;
 top:50%;
 left:50%;
-opacity:0.775;
 padding-bottom: 10px;
 }
 
@@ -292,4 +290,40 @@ padding-bottom: 10px;
 	background-color:#e075cb;
 	margin-left:300px;
 	margin-right:300px;
+}
+
+.boxed15{
+	margin:10px;
+	padding:10px;
+	background-color:#e075cb;
+	margin-left:300px;
+	margin-right:300px;
+}
+
+.boxed16{
+background-color:rgba(170, 109, 222, 0.775);
+margin-top:10px;
+margin-bottom:10px;
+padding-bottom:210px;
+top:50%;
+left:50%;
+}
+
+.AboutMe{
+	font-family:Optima, sans-serif;
+font-size:4em;
+font-weight:800;
+margin-bottom: 0px;
+margin-top:4px;
+color:transparent;
+background-image:url(https://media.giphy.com/media/fUvfA0iLgy8qCGuvF2/giphy.gif);
+background-position:center;
+-webkit-background-clip:text;
+}
+
+#PerryRun{
+	margin-left:485px;
+	margin-top:-30px;
+	margin-bottom:230px;
+	opacity:1.0;
 }
